@@ -1,0 +1,42 @@
+
+:root {
+    --red-150: #ff263e;
+    --black: #282828;
+  }
+.text-red-150 {
+    color:var(--red-150);
+}
+.bg-red-150 {
+  background-color:var(--red-150);
+}
+.border-red-150 {
+  border-color:var(--red-150);
+}
+.text-dark {
+  color: var(--black);
+}
+.bg-dark {
+  background-color: var(--black);
+}
+.border-dark {
+  border-color: var(--black);
+}
+
+.input-inset  {
+  box-shadow: inset 2px 2px 5px  grey ;
+}
+.card-inset  {
+  box-shadow: inset 5px 5px 5px  grey ;
+}
+input[type='text']:focus, [type='email']:focus, [type='url']:focus, [type='password']:focus, [type='number']:focus, [type='date']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='week']:focus, [multiple]:focus, textarea:focus, select:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: var(--red-150);
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  border-color: var(--red-150);
+}
